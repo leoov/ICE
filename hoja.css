@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Lobster', cursive;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px;
+}
+img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: auto;
+	padding-top: 7%;
+	transition: 1s all;
+}
+.personal{
+	background: linear-gradient(135deg, #9B0505 0%, #121010 74%);
+	padding: 0 50px;
+	height: 1000px;
+}
+.content{
+	text-align: 1000px;
+	padding: 0 250px;
+}
+a{  color: black;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+h2{
+	color: #5A8D1D;
+	letter-spacing: 3px;
+}
+.head{
+	margin-top: 7%;
+	font-size: 1.5em;
+}
+
+h1::after{
+	content: "";
+	width: 80px;
+	height: 3px;
+	display: block;
+	background: #28AE11;
+}
+
+.puntos{
+	width: 10px;
+	height: 10px;
+	background: #3498DB;
+	border-radius: 50%;
+	position: absolute;
+	left: 10%;
+	margin-top: -15px;
+}
+
+.puntos::before{
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: block;
+	background: #3498DB;
+	border-radius: 50%;
+	left: 35px;
+	position: absolute;
+
+}
+
+.puntos::after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: block;
+	background: #3498DB;
+	border-radius: 50%;
+	left: 70px;
+	position: absolute;
+}
+
+.contenido ul{
+	font-style: outside;
+	margin:3% 5%;
+}
+
+.datos
+{
+	font-style: oblique;
+}
+img:hover
+{
+	transform: scale(1.1);
+	filter: grayscale(10%) blur(4px);
+}
+img:active
+{
+	transform: scale(.99);
+}
